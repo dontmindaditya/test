@@ -5,6 +5,7 @@ import type { DashboardStats } from "@/types/analysis";
 import { useJobHistory } from "@/hooks/useJobHistory";
 import { computeDashboardStats } from "@/lib/jobs/metrics";
 
+
 export function useDashboardStats() {
   const { history } = useJobHistory();
 

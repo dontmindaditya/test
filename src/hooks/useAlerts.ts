@@ -10,6 +10,7 @@ export function useAlerts() {
   const [loading, setLoading] = useState(true);
   const [severity, setSeverity] = useState<"ALL" | AlertSeverity>("ALL");
 
+  
   useEffect(() => {
     const refresh = () => {
       setLoading(true);
@@ -40,3 +41,4 @@ export function useAlerts() {
     setSeverity,
   };
 }
+

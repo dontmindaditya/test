@@ -1,5 +1,6 @@
 "use client";
 
+
 import { useEffect, useMemo, useState } from "react";
 import type { JobHistoryItem } from "@/types/jobs";
 import { clearJobHistory, getJobHistory } from "@/lib/jobs/jobStorage";

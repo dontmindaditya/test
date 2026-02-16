@@ -1,5 +1,6 @@
 "use client";
 
+
 import { useEffect, useMemo, useState } from "react";
 import type { DataLogsFilters } from "@/types/dataLogs";
 import { getFilteredLogs } from "@/lib/data-logs/dataLogsService";
@@ -41,3 +42,4 @@ export function useDataLogs() {
     clearAll,
   };
 }
+

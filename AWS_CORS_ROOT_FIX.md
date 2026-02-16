@@ -1,5 +1,6 @@
 # ROOT FIX - Add CORS to AWS Backend
 
+
 ## The Problem
 Your AWS Lambda doesn't send CORS headers, causing browser to block requests with:
 ```
