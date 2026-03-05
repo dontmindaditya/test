@@ -30,6 +30,8 @@ Frontend → /api/results/{id} → AWS API ✅ (Server-to-server, no CORS!)
 2. Next.js server calls AWS backend (**server-to-server** has no CORS restrictions)
 3. Response flows back to frontend seamlessly
 
+
+
 ## Files Changed
 
 ### 1. Created `/api/analyze` route
