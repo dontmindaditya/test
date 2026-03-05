@@ -19,6 +19,8 @@ export default function AlertCard({ alert }: { alert: Alert }) {
             }
           `}
         >
+
+          
           {alert.severity}
         </span>
       </div>
