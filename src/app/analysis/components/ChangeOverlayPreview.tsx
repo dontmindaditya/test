@@ -1,5 +1,6 @@
 import type { AnalyzeResponse } from "@/types/analysis";
 
+
 export default function ChangeOverlayPreview({
   result,
 }: {
