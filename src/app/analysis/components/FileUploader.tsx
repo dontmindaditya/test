@@ -10,6 +10,7 @@ interface FileUploaderProps {
   maxSizeMB?: number;
 }
 
+
 export function FileUploader({
   onFileSelect,
   accept = ".tif,.tiff",
