@@ -10,6 +10,7 @@ import {
   Cpu,
 } from "lucide-react";
 
+
 // Define the type inline instead of importing
 interface AnalysisProgress {
   stage: string;
