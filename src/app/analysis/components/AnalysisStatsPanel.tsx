@@ -2,6 +2,7 @@
 import type { BoundingBox } from "@/types/geo";
 import type { AnalyzeResponse } from "@/types/analysis";
 
+
 export default function AnalysisStatsPanel({
   bbox,
   result,
