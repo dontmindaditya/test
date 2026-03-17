@@ -1,6 +1,7 @@
 "use client";
 import { Scan, Loader2, MapPin } from "lucide-react";
 
+
 export default function AnalyzeButton({
   loading,
   disabled,
