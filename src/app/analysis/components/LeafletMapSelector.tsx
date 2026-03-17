@@ -7,6 +7,7 @@ const LeafletMapSelectorClient = dynamic(
   { ssr: false },
 );
 
+
 export default function LeafletMapSelector(props: {
   value: { lat: number; lon: number } | null;
   onChange: (value: { lat: number; lon: number }) => void;
