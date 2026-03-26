@@ -40,6 +40,8 @@ const map = L.map(container, {
 
 **Zoom Level:** 7 (Perfect for viewing the entire state)
 
+
+
 **Bounds Restrictions:**
 - Southwest: [-13.5, -66.5]
 - Northeast: [-8.0, -59.5]
