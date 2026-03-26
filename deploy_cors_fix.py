@@ -10,6 +10,8 @@ Prerequisites:
 - AWS CLI configured with credentials
 - Your Lambda function name
 
+
+
 Usage:
     python deploy_cors_fix.py --function-name your-lambda-name
 """
