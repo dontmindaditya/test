@@ -1,8 +1,6 @@
 "use client";
 import {
-  Target,
-  Satellite,
-  Leaf,
+  Target,Satellite,Leaf,
   Search,
   FileText,
   Loader2,
