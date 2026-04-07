@@ -1,4 +1,5 @@
 export default function AnalysisHeader() {
+  
   return (
     <div className="flex flex-col justify-center border-none outline-none">
       <h1 className="text-2xl font-black tracking-tight text-foreground m-0 p-0">
