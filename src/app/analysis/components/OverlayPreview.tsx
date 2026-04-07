@@ -1,8 +1,6 @@
 "use client";
 import { useState } from "react";
 import type { AnalyzeResponse } from "@/types/analysis";
-
-
 export default function OverlayPreview({
   result,
 }: {
