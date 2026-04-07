@@ -7,8 +7,6 @@ import type { AnalyzeResponse } from "@/types/analysis";
 const LeafletMapClient = dynamic(() => import("./LeafletMapClient"), {
   ssr: false,
 });
-
-
 export default function MapAOISelector({
   onBboxChange,
 }: {
