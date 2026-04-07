@@ -12,7 +12,6 @@ import {
 import type { LatLngLiteral } from "leaflet";
 import { useEffect, useMemo, useState } from "react";
 
-
 const DEFAULT_CENTER: LatLngLiteral = { lat: -10.5, lng: -63.0 };
 
 const satelliteUrl =
