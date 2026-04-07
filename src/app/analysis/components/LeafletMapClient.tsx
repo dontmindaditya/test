@@ -2,7 +2,6 @@
 import { useEffect, useRef, useState } from "react";
 import { Trash2, Square, Loader2 } from "lucide-react";
 
-
 export default function LeafletMapClient({
   onBboxChange,
 }: {
