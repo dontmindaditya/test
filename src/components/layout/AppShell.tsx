@@ -26,12 +26,7 @@ import {
 import { Button } from "@/components/ui/button";
 
 const navItems = [
-  { name: "Dashboard", href: "/dashboard", icon: LayoutDashboard },
-  { name: "Map Analysis", href: "/analysis", icon: Map },
-  { name: "Scan Result", href: "/scan-result", icon: FileSearch },
-  { name: "Data Logs", href: "/data-logs", icon: Database },
-  { name: "Alerts Centre", href: "/alerts", icon: Siren },
-];
+
 
 export default function AppShell({ children }: { children: React.ReactNode }) {
   const pathname = usePathname();
